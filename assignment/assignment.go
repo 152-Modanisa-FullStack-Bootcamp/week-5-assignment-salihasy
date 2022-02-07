@@ -41,7 +41,7 @@ func CeilNumber(f float64) float64 {
 			return roundedValue
 		}
 	default:
-		return f // if fractional part is equal to 0, sayı yuvarlanmayacak
+		return f // if fractional part is equal to 0, number will not rounded
 	}
 }
 
